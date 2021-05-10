@@ -84,7 +84,7 @@
                                     "order": [[ 0, 'desc' ]],
                                     "processing": true,
                                     "serverSide": false,
-                                    "bFilter": false,
+                                    "bFilter": true,
                                     "bLengthMenu": false,
                                     "bLengthChange": false,
 

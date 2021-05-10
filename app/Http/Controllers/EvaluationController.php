@@ -60,7 +60,7 @@ class EvaluationController extends Controller
         $item = Evaluation::find($evaluation);
         $item->delete();
 
-        Alert::success('Evaluación eliminadaa', 'Evaluación eliminada con exito.');
+        Alert::success('Evaluación eliminada', 'Evaluación eliminada con exito.');
         return redirect()->route('dashboard');
 
     }
